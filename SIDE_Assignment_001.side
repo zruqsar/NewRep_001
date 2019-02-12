@@ -1,0 +1,407 @@
+{
+  "id": "fe9e3088-1f48-4799-8b03-e1c9586961de",
+  "version": "2.0",
+  "name": "SIDE_Assignment_001",
+  "url": "https://fuscdrmsmc359-login.us.oracle.com",
+  "tests": [{
+    "id": "976aeb72-506e-42b2-be87-353bf1e8d274",
+    "name": "Create_CreditCategory",
+    "commands": [{
+      "id": "d653d27d-eb31-4811-b37a-fe63bd5c528b",
+      "comment": "",
+      "command": "store",
+      "target": "SIDE_Z_CC_001",
+      "targets": [],
+      "value": "Crdt_Cat_Name"
+    }, {
+      "id": "2661b49f-e49d-4fa6-9777-f59236760f7b",
+      "comment": "",
+      "command": "open",
+      "target": "/oam/server/obrareq.cgi?encquery%3DhQOeyFQC6R1yGKdT%2BHDP7uCXpnW%2F%2BFZYtlgibC1qc8p6JjNXgkqfDwwL3bxhk9%2FLTOnfjFt45cW8cTz1tobukuBfxT21PM8CjtS0wU%2BPjBOk4BoXTs0aMYiEenMhbo0l2X1zd0PglkG%2Budj7%2FU%2BlZQsO428G8gjY41bGwi%2BbNBNtbhzcgqYfRifaSWtfy9YjLmodL0OnKeUfLNU0hfR027XzT%2F9OlvrVS9HHhxWAoAhBVwtm77uxtOUeShTJ1H3%2BE3Q7qklkORx3bJ7oGkAKbpomydBUrsV2eZ4u1wg9UwMNeJzbUSXVO9PEi%2B4ulZCsQds9v2QTOM6Yd%2FVvFYE69rNeDIeKVvmI%2BtDooYq1bhyXQ1ocmLZJM0JS6o2fZX84G9kZ%2B7lxFSpkI7jE4niAzUS3Qy9plO%2BNXm4I3gYdr1Whd5jOUArIXA2hsQnmg%2FuKQ8TRcJ4wdLIfLeoTWtr137Z9W72I1H6a1JT%2BXDi9SZJAw0nwMNkB1C%2FLBn69x0S6%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Da777c28643094c9fd31ec3c26e68f8013c0739a0&ECID-Context=1.005WQcgrhG61nZk_GxO5yf0006Yd0002IY%3BkXjE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a2ebc27-6d35-411c-804c-71b51abcd209",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c56ad169-d907-4124-8217-2c720c628305",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["css=#userid", "css"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "oic_plan_admin_operations"
+    }, {
+      "id": "cfd42201-888c-4ea1-9dc3-9ec2b8b249e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["css=#password", "css"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Welcome1"
+    }, {
+      "id": "9ca341c5-2eb8-4aeb-b102-0a9d90c328e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnActive",
+      "targets": [
+        ["id=btnActive", "id"],
+        ["name=btnActive", "name"],
+        ["css=#btnActive", "css:finder"],
+        ["css=#btnActive", "css"],
+        ["xpath=//button[@id='btnActive']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "230d4bb1-0fbe-4e43-89f3-3e3621779e26",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pt1\\3A_UISmmLink\\3A\\3Aicon .svg-outline",
+      "targets": [
+        ["css=#pt1\\3A_UISmmLink\\3A\\3Aicon .svg-outline", "css:finder"],
+        ["css=path.svg-outline", "css"]
+      ],
+      "value": ""
+    }, {
+      "id": "132b65d6-9ae0-4e88-a971-5a12d20eb399",
+      "comment": "",
+      "command": "click",
+      "target": "id=pt1:nv_itemNode_incentive_compensation_compensation_plans",
+      "targets": [
+        ["id=pt1:nv_itemNode_incentive_compensation_compensation_plans", "id"],
+        ["linkText=Compensation Plans", "linkText"],
+        ["css=#pt1\\3Anv_itemNode_incentive_compensation_compensation_plans", "css:finder"],
+        ["xpath=//a[contains(text(),'Compensation Plans')]", "xpath:link"],
+        ["xpath=//a[@id='pt1:nv_itemNode_incentive_compensation_compensation_plans']", "xpath:attributes"],
+        ["xpath=//table[@id='pt1:j_id32']/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[59]", "xpath:href"],
+        ["xpath=//td[2]/div/div[6]/table/tbody/tr/td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63768eb8-bd6f-4969-9ee6-96c42b8a8e54",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a59372a-8641-4d31-ab24-ea3c846bd76d",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTsdiFndTasksList::icon",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTsdiFndTasksList::icon", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3A_FOTsdiFndTasksList\\3A\\3Aicon", "css:finder"],
+        ["xpath=//img[@alt='Tasks']", "xpath:img"],
+        ["xpath=//img[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTsdiFndTasksList::icon']", "xpath:attributes"],
+        ["xpath=//a[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTsdiFndTasksList::disAcr']/img", "xpath:idRelative"],
+        ["xpath=//div[5]/table/tbody/tr/td/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15786b81-d0e1-4d32-95c5-5b3b24b78526",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTRaT:0:RAtl8",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTRaT:0:RAtl8", "id"],
+        ["linkText=Manage Credit Categories", "linkText"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3A_FOTRaT\\3A 0\\3ARAtl8", "css:finder"],
+        ["xpath=//a[contains(text(),'Manage Credit Categories')]", "xpath:link"],
+        ["xpath=//a[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTRaT:0:RAtl8']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:_FOTRaT:0:j_id17']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[49]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52866591-2a29-4085-9a2b-49385576d7f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da38c9a9-bd58-4a2a-b4b1-f85d6147e524",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:create::icon",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:create::icon", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3A AT3\\3A_ATp\\3A create\\3A\\3Aicon", "css:finder"],
+        ["xpath=//img[@alt='Create']", "xpath:img"],
+        ["xpath=//img[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:create::icon']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:create']/a/img", "xpath:idRelative"],
+        ["xpath=//td/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c458cc39-3939-49f7-8e1c-8f69c8d73d67",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3AinputText1\\3A\\3A content", "css:finder"],
+        ["xpath=//input[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content']", "xpath:attributes"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ba8b67-b145-4547-9392-a0145c9f2cc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3AinputText1\\3A\\3A content", "css:finder"],
+        ["xpath=//input[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content']", "xpath:attributes"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29b08641-a151-41e8-9786-87792dda50ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3AinputText1\\3A\\3A content", "css:finder"],
+        ["xpath=//input[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1::content']", "xpath:attributes"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText1']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "${Crdt_Cat_Name}"
+    }, {
+      "id": "d82efa16-36c1-4c9c-a6c4-1dbbb1584155",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3AinputText2\\3A\\3A content", "css:finder"],
+        ["xpath=//textarea[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content']", "xpath:attributes"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2']/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "852bb88b-1c01-4026-8ed8-af7e723b1d16",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:APsv2::popEl",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:APsv2::popEl", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3A APsv2\\3A\\3ApopEl", "css:finder"],
+        ["xpath=//a[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:APsv2::popEl']", "xpath:attributes"],
+        ["xpath=//td[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:APsv2::popArea']/div/a", "xpath:idRelative"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49aa8d63-629a-4096-b4fe-33e13ad0e2d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3AinputText2\\3A\\3A content", "css:finder"],
+        ["xpath=//textarea[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2::content']", "xpath:attributes"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:inputText2']/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Credit Category Via SIDE"
+    }, {
+      "id": "bb44e169-e8ec-4692-9843-7e77aa399e79",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3A cmi2 > .af_commandMenuItem_menu-item-text",
+      "targets": [
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 2\\3Apt1\\3A apPanel\\3A cmi2 > .af_commandMenuItem_menu-item-text", "css:finder"],
+        ["xpath=//tr[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:2:pt1:apPanel:cmi2']/td[2]", "xpath:idRelative"],
+        ["xpath=//div/div/table/tbody/tr/td/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63cb04e9-550e-49c6-a16d-f20b412713b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3Aq2\\3Avalue00\\3A\\3A content", "css:finder"],
+        ["xpath=//input[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content']", "xpath:attributes"],
+        ["xpath=//span[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "022a2236-4496-4708-9791-7a78ff7e9bc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content", "id"],
+        ["name=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00", "name"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3Aq2\\3Avalue00\\3A\\3A content", "css:finder"],
+        ["xpath=//input[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00::content']", "xpath:attributes"],
+        ["xpath=//span[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2:value00']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${Crdt_Cat_Name}"
+    }, {
+      "id": "fc574f08-a48a-4e0c-8904-558694692868",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2::search",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2::search", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3Aq2\\3A\\3Asearch", "css:finder"],
+        ["xpath=//button[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2::search']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:q2']/div[2]/div/table/tbody/tr/td/table/tbody/tr/td[3]/button", "xpath:idRelative"],
+        ["xpath=//td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6280d947-0bad-4587-813f-adc34df09491",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:delete::icon",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:delete::icon", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3A AT3\\3A_ATp\\3A delete\\3A\\3Aicon", "css:finder"],
+        ["xpath=//img[@alt='Delete']", "xpath:img"],
+        ["xpath=//img[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:delete::icon']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:_ATp:delete']/a/img", "xpath:idRelative"],
+        ["xpath=//td[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aeeb6b6-da08-46d0-aac8-e6db6255464e",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:confirm",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:confirm", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3A AT3\\3A confirm", "css:finder"],
+        ["xpath=//button[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:confirm']", "xpath:attributes"],
+        ["xpath=//table[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:AT3:ATppl2']/tbody/tr/td[2]/button", "xpath:idRelative"],
+        ["xpath=//td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6b53cc-78fe-4e4f-b591-64987cff582f",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_UIScmil1u::icon",
+      "targets": [
+        ["id=_FOpt1:_UIScmil1u::icon", "id"],
+        ["css=#\\_FOpt1\\3A_UIScmil1u\\3A\\3Aicon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "09271238-b60e-4b7d-aca8-655711710831",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3A APb", "css:finder"],
+        ["xpath=//button[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APtb1']/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e094e02e-8dec-4dd7-aad3-f1214d6b453f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb",
+      "targets": [
+        ["id=_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb", "id"],
+        ["css=#\\_FOpt1\\3A_FOr1\\3A 0\\3A_FOSritemNode_incentive_compensation_compensation_plans\\3A 0\\3AMAnt2\\3A 1\\3Apt1\\3A ap1\\3A APb", "css:finder"],
+        ["xpath=//button[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APb']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_FOr1:0:_FOSritemNode_incentive_compensation_compensation_plans:0:MAnt2:1:pt1:ap1:APtb1']/table/tbody/tr/td/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38df64d-82fe-4f4c-af36-70b6a7ea5d2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=_FOpt1:_UISlg1",
+      "targets": [
+        ["id=_FOpt1:_UISlg1", "id"],
+        ["linkText=Sign Out", "linkText"],
+        ["css=#\\_FOpt1\\3A_UISlg1", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//a[@id='_FOpt1:_UISlg1']", "xpath:attributes"],
+        ["xpath=//div[@id='_FOpt1:_USSph1']/div/table/tbody/tr/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[38]", "xpath:href"],
+        ["xpath=//td[2]/table/tbody/tr/td/div/div/div/table/tbody/tr/td[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337293d7-44f6-4927-bc9c-28fcdfb1ba90",
+      "comment": "",
+      "command": "click",
+      "target": "id=Confirm",
+      "targets": [
+        ["id=Confirm", "id"],
+        ["name=Confirm", "name"],
+        ["css=#Confirm", "css:finder"],
+        ["css=#Confirm", "css"],
+        ["xpath=//button[@id='Confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='logoutConsent']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6565ddd5-febb-476b-8976-735df017751c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6c9e5fc-00f9-4e7c-87e6-c3b89528713c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["976aeb72-506e-42b2-be87-353bf1e8d274"]
+  }],
+  "urls": ["https://fuscdrmsmc84-login.us.oracle.com/", "https://fuscdrmsmc359-login.us.oracle.com/"],
+  "plugins": []
+}
