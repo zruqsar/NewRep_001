@@ -14,9 +14,10 @@ public class IntAddCharJoin {
 	    	Sum(Integer.valueOf(x).intValue(),Integer.valueOf(y).intValue());	    	
 	    }	    
 	    else if(!isNumeric(x) ||  !isNumeric(y)  ) {
-	    	System.out.println("You Have Entered Non numeric Values, Proceeding with Concatenation");
+	    	System.out.println("Either Of the Entered Value is NonNumeric, Proceeding with Concatenation");
 	    	Concatenate(x,y);
-	    }   		    
+	    }    
+		    
 	}
 	
 	public static void Sum(int x, int y)
@@ -27,7 +28,7 @@ public class IntAddCharJoin {
 	
 	public static void Concatenate(String x, String y)
     {	     
-	      System.out.println("Combined String is = " +x+y);
+	      System.out.println("Your Combined String is = " +x+y);
     }	
 	
 	public static boolean isNumeric(String a) {
